@@ -1,0 +1,19 @@
+## .NET
+bin/
+obj/
+out/
+TestResults/
+
+## Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+## Misc
+.vs/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example

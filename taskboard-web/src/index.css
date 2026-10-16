@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7f9; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #111827; color: #fff; }
+.nav a { color: #fff; text-decoration: none; margin-right: 8px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+.board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.col { background: #eef2ff; border-radius: 8px; padding: 10px; min-height: 200px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #e5e7eb; }
+.badge.High { background: #fecaca; } .badge.Medium { background: #fde68a; } .badge.Low { background: #bbf7d0; }
+.overdue { color: #b91c1c; font-weight: 600; }
+.muted { opacity: 0.8; font-size: 14px; }
+input, select, textarea { padding: 8px; margin: 4px 0; border: 1px solid #d1d5db; border-radius: 6px; width: 100%; box-sizing: border-box; }
+button { padding: 8px 12px; border-radius: 6px; border: 1px solid #111827; background: #111827; color: #fff; cursor: pointer; margin: 2px; }
+button.ghost { background: #fff; color: #111827; }
+form.auth { max-width: 380px; }
